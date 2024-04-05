@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: auto;
+  height: 110vh;
+  background-image: url(./download.webp);
+  background-position: center;
+}
+
+nav {
+  width: 95%;
+}
+
+.MENYU-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 500px;
+}
+
+.sharch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.sharch a {
+  color: black;
+}
+.sharch a:hover {
+  color: red;
+}
+
+.M1 {
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.M2 {
+  width: 153px;
+  height: 33px;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: none;
+  list-style: none;
+}
+.M2 a {
+  text-decoration: none;
+  color: black;
+}
+.M2 a:hover {
+  color: red;
+}
+
+.MENYU {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.MENYU ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 70px;
+}
+.MENYU li {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.MENYU li a {
+  text-decoration: none;
+  color: black;
+}
+.MENYU li a:hover {
+  color: red;
+}
+
+.sentence {
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+.red {
+  color: red;
+}
+.red h4 {
+  font-size: 28px;
+}
+
+.big {
+  display: inline-block;
+  color: black;
+}
+.big h1 {
+  font-size: 50px;
+}
+
+.small {
+  margin-top: 60px;
+  width: 500px;
+  color: dimgray;
+}
+
+.shop {
+  width: 107px;
+  height: 18px;
+}
+.shop a {
+  text-decoration: none;
+  color: black;
+}
+.shop a:hover {
+  color: red;
+}
+
+.contayner {
+  width: 98%;
+  height: 159px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.contayner .cards {
+  width: 227px;
+}
+.contayner .cards img {
+  width: 83px;
+  height: 83px;
+  margin: 0px 73px;
+}
+.contayner .cards .card-m1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 20px 0px 0px;
+}
+.contayner .cards .card-m1 h3 {
+  width: 114px;
+  height: 20.8px;
+  font-size: 18px;
+}
+.contayner .cards .card-m1 p {
+  width: 77px;
+  height: 19px;
+  font-size: 16px;
+  color: gray;
+}
+
+.line {
+  width: 100%;
+  height: 0.8px;
+  color: #E5E5E5;
+  background-color: #E5E5E5;
+}
+
+.body-m1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.body-m1 .body-m2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.body-m1 .body-m2 .dark {
+  width: 480px;
+  height: 684px;
+}
+.body-m1 .body-m2 .peace .m10-1 .m1-1 {
+  font-size: 24px;
+  margin: 0px 0px 26px;
+  color: red;
+}
+.body-m1 .body-m2 .peace .m10-1 .m1-2 {
+  width: 816px;
+  font-size: 20px;
+}
+.body-m1 .body-m2 .peace .m10-1 .m1-3 {
+  font-size: 18px;
+  margin: 27px 0px 0px;
+  text-decoration: none;
+}
+.body-m1 .body-m2 .peace .m10-1 .m1-3 a {
+  text-decoration: none;
+  color: black;
+}
+.body-m1 .body-m2 .peace .m10-1 .m1-3 a:hover {
+  color: red;
+}
+.body-m1 .body-m2 .peace .m10-2 {
+  width: 810px;
+  height: 450px;
+}
+
+.m20-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.m20-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  margin-top: 15px;
+}
+
+.menyu-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.menyu-2 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  gap: 80px;
+}
+.menyu-2 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.menyu-2 li a {
+  text-decoration: none;
+  color: black;
+}
+.menyu-2 li a:hover {
+  color: red;
+}
+
+.contayner-m30 {
+  width: 100%;
+  height: 1045px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.contayner-m30 .cards-m30 {
+  width: 300px;
+  display: flex;
+}
+.contayner-m30 .cards-m30 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 317px;
+  height: 317px;
+  margin: 0px 73px;
+}
+.contayner-m30 .cards-m30 .card-m30 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 20px 0px 0px;
+}
+.contayner-m30 .cards-m30 .card-m30 h3 {
+  width: 244px;
+  height: 20px;
+  font-size: 18px;
+}
+.contayner-m30 .cards-m30 .card-m30 p {
+  width: 277px;
+  height: 24px;
+  font-size: 16px;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
